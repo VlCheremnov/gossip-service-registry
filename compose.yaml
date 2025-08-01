@@ -1,0 +1,7 @@
+﻿services:
+  gossipserviceregistry:
+    image: gossipserviceregistry
+    build:
+      context: .
+      dockerfile: Dockerfile
+
